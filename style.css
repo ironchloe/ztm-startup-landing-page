@@ -1,0 +1,43 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* 寬高100%表示無論視窗大小,圖片文字都會跟著放大縮小至視窗滿版,不會破版 */
+  font-family: "Lobster", cursive;
+  background: url(header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+}
+.buffer {
+  height: 3rem;
+}
+hr {
+  border-color: #dc143c;
+  border-width: 3px;
+  max-width: 65px;
+}
+.btn {
+  font-weight: 100;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  /* 背景色寫在.btn也會變色,那為何老師寫在這? */
+  background-color: #dc143c;
+  border-color: #dc143c;
+}
+.btn-primary:hover {
+  background-color: #ff00ff;
+  border-color: #ff00ff;
+  border-width: 4px;
+}
+.btn-xl {
+  /* 1rem左右, 2rem上下 */
+  padding: 1rem 2rem;
+}
